@@ -34,4 +34,5 @@ jobs:
           STOKEN: ${{ secrets.STOKEN }}
         run: |
           python baidu贴吧/tieBa_DoSign.py || echo "Script failed with exit code $?"
+
         
